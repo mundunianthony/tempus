@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "230754350559",
+    "project_id": "tempus-fcd8f",
+    "storage_bucket": "tempus-fcd8f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230754350559:android:b40f447059f0a10902c06a",
+        "android_client_info": {
+          "package_name": "com.example.tempus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApMMhm6mANXN3yg9eli9ZmlOyouKDWhFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
