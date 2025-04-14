@@ -1,14 +1,9 @@
-buildscript {
-    dependencies {
-        classpath("com.google.gms:google-services:4.3.15")
-    }
-}
-
 plugins {
     id("com.android.application")
     id("kotlin-android")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
+    id("com.google.gms.google-services") // Added Google Services plugin
 }
 
 android {
@@ -47,4 +42,8 @@ android {
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-auth:22.1.2' // Added Firebase Auth dependency
 }
